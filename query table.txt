@@ -1,0 +1,11 @@
+CREATE TABLE `portfolio_table` (
+  `name` varchar(100) DEFAULT NULL,
+  `role` varchar(100) DEFAULT NULL,
+  `availability` varchar(100) DEFAULT NULL,
+  `age` int DEFAULT NULL,
+  `location` varchar(100) DEFAULT NULL,
+  `experience` int DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+)
